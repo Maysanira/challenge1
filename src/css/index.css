@@ -1,0 +1,131 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap');
+/* Global settings */
+* {
+    font-family: "Inter";
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* CSS */
+.bg-black {
+    background-color: #f3f4f3;
+    padding: 25px 255px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bg-black p{
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+}
+.btn{
+        padding: 10px;
+        color: white;
+        background-color: blue;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: 600
+}
+.header{
+    display: flex;
+    align-items: center;
+    padding: 30px 255px;
+    border-bottom: 1px solid #efefef;
+    display: flex;
+    justify-content: space-between;
+}
+.link {
+        gap: 25px;
+        display: flex;
+        list-style: none;
+    }
+.link li a{
+    text-decoration: none;
+    color: black;
+}
+
+.btns{
+    padding: 8px 16px;
+        color: white !important;
+        background-color: blue;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: 700;
+        border: none;
+}
+.content{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 25px 255px;
+    align-items: center;
+}
+.content-title{
+    color: rgb(8, 8, 8);
+    font-size: 48px ;
+    font-weight: 600px;
+}
+.content-subtitle{
+    color: #888888;
+    font-size: 18px;
+    font-weight: 400px;
+}
+.app-ui{
+    margin-top: 25px;
+    width: 100%;
+    float: right;
+}
+.project-titles{
+    font-size: 35px;
+    font-weight: 600;
+    color: blue;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+.project{
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+.team{
+    font-size: 20px;
+    font-weight: 400;
+    color: #555;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+.content-team{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+    padding: 25px 255px;
+    text-align: center;
+}
+.links{
+    gap: 30px;
+    display: flex;
+    list-style: none;
+
+}
+.footer{
+    display: flex;
+    align-items: center;
+    padding: 30px 255px;
+    border-bottom: 1px solid #efefef;
+    display: flex;
+    justify-content: space-between;
+}
+.links li a{
+    text-decoration: none;
+    color: rgb(112, 104, 104);
+}
